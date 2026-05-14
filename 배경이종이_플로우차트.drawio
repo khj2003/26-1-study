@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="페이지-1" id="cGrnyc1uL3d3tVkECLlG">
+    <mxGraphModel dx="925" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OpcPRvyCAg780PJ2P311-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="스테이지 시작" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-2" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="행동 순서 결정&lt;br&gt;및 출력&lt;div&gt;(화면 좌측)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-11" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-10" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="유저 행동 선택 단계&lt;div&gt;&lt;br&gt;&lt;div&gt;(1)캐릭터 이동, 스킬 사용&lt;/div&gt;&lt;div&gt;(2)전장 조작&lt;/div&gt;&lt;div&gt;(3)특별 행동 X&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-13" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="510" as="sourcePoint" />
+            <mxPoint x="400" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="적 유닛이 공격 사거리 내에 있는가?&lt;div&gt;내 스킬의 사용 조건이 충족됐는가?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="240" x="280" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-15" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="OpcPRvyCAg780PJ2P311-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-16" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-14" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="520" as="sourcePoint" />
+            <mxPoint x="200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="해당&amp;nbsp; 유닛 전투 진행" vertex="1">
+          <mxGeometry height="80" width="120" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="212" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-20" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-14" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="680" />
+            </Array>
+            <mxPoint x="360" y="660" as="sourcePoint" />
+            <mxPoint x="140" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-21" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-17" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="520" as="sourcePoint" />
+            <mxPoint x="140" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="212" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-23" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="행동하지 않은&lt;div&gt;유닛이 존재하는가?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="315" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-29" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="전멸한&amp;nbsp; 팀이 있는가?" vertex="1">
+          <mxGeometry height="100" width="200" x="40" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-30" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-29" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OpcPRvyCAg780PJ2P311-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="670" as="sourcePoint" />
+            <mxPoint x="460" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="247" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-32" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-23" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="OpcPRvyCAg780PJ2P311-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="810" />
+              <mxPoint x="600" y="200" />
+            </Array>
+            <mxPoint x="410" y="670" as="sourcePoint" />
+            <mxPoint x="570" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-34" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-23" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="OpcPRvyCAg780PJ2P311-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="720" />
+              <mxPoint x="560" y="720" />
+              <mxPoint x="560" y="560" />
+            </Array>
+            <mxPoint x="410" y="520" as="sourcePoint" />
+            <mxPoint x="560" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="453" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-36" edge="1" parent="1" source="OpcPRvyCAg780PJ2P311-29" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="1000" />
+            </Array>
+            <mxPoint x="410" y="820" as="sourcePoint" />
+            <mxPoint x="320" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="스테이지 종료" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="OpcPRvyCAg780PJ2P311-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="910" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
